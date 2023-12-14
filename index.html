@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>مكتبة فلسطين | دار للكتب</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <!-- logo -->
+        <a href="#" class="nav__logo"
+          ><img src="assets/imgs/logo.jpg" alt="logo" />
+
+          <div class="free__p">#فلسطين_حرة</div>
+        </a>
+
+        <!-- menu -->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link"
+                ><i class="fa-solid fa-house-chimney-window"></i> الرئيسية</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="categoris.html" class="nav__link"
+                ><i class="fa-solid fa-map"></i> أقسام الكتب</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#authors" class="nav__link"
+                ><i class="fa-solid fa-pen-ruler"></i> مؤلفو الكتب</a
+              >
+            </li>
+          </ul>
+
+          <div class="buttons">
+            <a href="login.html" class="btn btn-ghost"
+              ><i class="fa-solid fa-right-to-bracket"></i> دخول</a
+            >
+            <a href="register.html" class="btn"
+              ><i class="fa-solid fa-user"></i> إنشاء حساب</a
+            >
+          </div>
+        </div>
+      </nav>
+      <div class="social__media-box">
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="title"></div>
+      <h3 class="title-right">دار فلسطين 🕌</h3>
+      <div class="logos text-wrapper">
+        <div class="logos-slide">
+          <span>افضل اسعار الكتب حول العالم</span>
+          <span>توصيل الكتب الى جميع انحاء دول العالم</span>
+          <span>تعرف على أحدث الروايات الجديدة</span>
+          <span>تعرف على أحدث الروايات الجديدة</span>
+          <span>تعرف على أحدث الروايات الجديدة</span>
+        </div>
+        <div class="logos-slide">
+          <span>افضل اسعار الكتب حول العالم</span>
+          <span>توصيل الكتب الى جميع انحاء دول العالم</span>
+          <span>تعرف على أحدث الروايات الجديدة</span>
+          <span>تعرف على أحدث الروايات الجديدة</span>
+          <span>تعرف على أحدث الروايات الجديدة</span>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main class="main">
+      <!-- search section -->
+      <section class="section search" id="search">
+        <div class="search__container container">
+          <div class="search-data">
+            <h2>مكتبة فلسطين</h2>
+            <p>افضل اسعار للكتب فى الوطن العربى</p>
+          </div>
+
+          <div class="input__group">
+            <input
+              type="search"
+              class="search__input"
+              id="search-input"
+              placeholder="ابحث عن كتاب أو مؤلف"
+            />
+            <a href="#" class="search__btn">بحث</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- best books -->
+      <section class="section best__books" id="best_books">
+        <h2 class="section__title">أفضل الكتب</h2>
+        <div class="best-books__container container">
+          <div class="best__book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <h3 class="best__book-title">الجريمة و العقاب</h3>
+            <p class="best__book-writer">دوستويفسكى</p>
+            <div class="best__book-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="best__book">
+            <img src="assets/imgs/book-3.png" alt="book" />
+            <h3 class="best__book-title">الجريمة و العقاب</h3>
+            <p class="best__book-writer">دوستويفسكى</p>
+            <div class="best__book-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="best__book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <h3 class="best__book-title">الجريمة و العقاب</h3>
+            <p class="best__book-writer">دوستويفسكى</p>
+            <div class="best__book-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- books -->
+      <section class="section books" id="books">
+        <h2 class="section__title">الكتب</h2>
+        <div class="books__container container">
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+          <div class="book">
+            <img src="assets/imgs/book-2.png" alt="book" />
+            <div class="book__content">
+              <h3 class="book__title">الجريمة و العقاب</h3>
+              <p class="book__writer">دوستويفسكى</p>
+              <div class="book__rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price__with__button">
+                <p class="book__price">250 جنيه</p>
+                <a href="buybook.html" class="book__buy-button">شراء</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- authors -->
+      <section class="section authors" id="authors">
+        <h2 class="section__title">مؤلفو الكتب</h2>
+
+        <div class="authors__container container">
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+          <div class="author">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h3 class="author__name">احمد خالد توفيق</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- testimonials -->
+      <section class="section testimonials" id="testimonials">
+        <h2 class="section__title">ماذا يقولون عنا</h2>
+
+        <div class="testimonial__container container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/imgs/me.jpg" alt="testimonial" />
+              <div class="testimonial__content">
+                <h3 class="testimonial__title">عبدالرحمن الرداد</h3>
+                <p class="testimonial__description">
+                  الصراحة موقع سريع ورائع ولكن ينقصه ميزة توصيل الكتب الى باب
+                  المنزل
+                </p>
+              </div>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/imgs/mo.jpg" alt="testimonial" />
+              <div class="testimonial__content">
+                <h3 class="testimonial__title">عمر محسن</h3>
+                <p class="testimonial__description">
+                  موقع سىء جدا ولا انصح بالشراء منه
+                </p>
+              </div>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/imgs/sisi.jpg" alt="testimonial" />
+              <div class="testimonial__content">
+                <h3 class="testimonial__title">عبدالفتاح السيسى</h3>
+                <p class="testimonial__description">
+                  الرجاء سداد جزء من ارباح الموقع الى صندوق تحيا مصر وشكرا
+                </p>
+              </div>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img src="assets/imgs/bahgat.jpg" alt="testimonial" />
+              <div class="testimonial__content">
+                <h3 class="testimonial__title">بهجت صابر</h3>
+                <p class="testimonial__description">
+                  اسعار الكتب غالية انتو شوية *****
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="section footer">
+      <div class="footer__container container">
+        <div class="footer__right">
+          <h2 class="footer__title">قائمة المسؤولين عن الموقع</h2>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+        <div class="footer__names">
+          <h1>Team 11</h1>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/date.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

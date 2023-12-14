@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>تسجيل الدخول | دار فلسطين للكتب</title>
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <!-- logo -->
+        <a href="#" class="nav__logo"
+          ><img src="assets/imgs/logo.jpg" alt="logo" />
+
+          <div class="free__p">#فلسطين_حرة</div>
+        </a>
+
+        <!-- menu -->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link"
+                ><i class="fa-solid fa-house-chimney-window"></i> الرئيسية</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="index.html#categoris" class="nav__link"
+                ><i class="fa-solid fa-map"></i> أقسام الكتب</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="index.html#authors" class="nav__link"
+                ><i class="fa-solid fa-pen-ruler"></i> مؤلفو الكتب</a
+              >
+            </li>
+          </ul>
+
+          <div class="buttons">
+            <a href="login.html" class="btn btn-ghost"
+              ><i class="fa-solid fa-right-to-bracket"></i> دخول</a
+            >
+            <a href="register.html" class="btn"
+              ><i class="fa-solid fa-user"></i> إنشاء حساب</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <main class="main">
+      <section class="section register">
+        <div class="register__container container">
+          <form
+            action=""
+            method="get"
+            class="register__form"
+            id="register-form"
+          >
+            <div class="input-group">
+              <label for="user-name">اسم المستخدم</label>
+              <input type="text" id="user-name" />
+            </div>
+            <div class="input-group">
+              <label for="user-password">كلمة المرور</label>
+              <input type="password" id="user-password" />
+            </div>
+            <a href="loginsuc.html" class="form-submit">تسجيل الدخول</a>
+          </form>
+
+          <div class="login-using-social-box">
+            <p>تسجيل الدخول باستخدام</p>
+            <a class="login-using-social">
+              <span>Facebook</span>
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="login-using-social">
+              <span>Gmail</span>
+              <i class="fa-brands fa-google"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <!-- footer -->
+    <footer class="section footer">
+      <div class="footer__container container">
+        <div class="footer__right">
+          <h2 class="footer__title">قائمة المسؤولين عن الموقع</h2>
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+        <div class="footer__names">
+          <h1>Team 11</h1>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const btn = document.querySelector(".buttons");
+
+      const btnsCate = () => {
+        if (this.scrollY > 150) {
+          btn.classList.add("change");
+        } else {
+          btn.classList.remove("change");
+        }
+      };
+      window.addEventListener("scroll", btnsCate);
+    </script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
